@@ -135,3 +135,7 @@ The full API is described in [openapi.yaml](openapi.yaml) (OpenAPI 3.0).
    changed. A failing script is caught here, so its console output and changes are still returned.
 5. A wrapper script builds the JSON response (HTTP 400 when the script failed). An exception subprocess answers when
    the runner itself fails.
+
+## License
+
+[MIT](LICENSE)
